@@ -119,11 +119,8 @@ def get_suggests(user_id):
     # со ссылкой на Яндекс.Маркет.
     if len(suggests) < 2:
         suggests.append({
-            "title": "Ладно",
-            "url": "https://market.yandex.ru/search?text=слон",
-            "hide": True
-        })
-
+            "hide": True,
+            "title": "Ладно"})
     return suggests
 
 
